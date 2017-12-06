@@ -1,0 +1,24 @@
+{
+  "name": "mongo-test-setup",
+  "version": "1.0.0",
+  "description": "Easily set up the state of you mongodb database",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit 'tests/**/*.spec.js'"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "test"
+  ],
+  "author": "Manuel Limones",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "mocha": "^4.0.1"
+  }
+}
